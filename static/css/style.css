@@ -36,6 +36,10 @@ li {
     background: url('../images/twitter.png') no-repeat;
 }
 
+.contact.posterous {
+    background: url('../images/posterous.png') no-repeat;
+}
+
 .contact.vkontakte {
     background: url('http://vk.com/images/vk16.png?1') no-repeat;
 }
