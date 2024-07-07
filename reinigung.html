@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reinigungsfirma "Sauberes Haus"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #333;
+        }
+        header {
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 10%);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .category_title {
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            padding: 25px;
+        }
+        .card_title {
+            color: #4CAF50;
+            font-size: 1.17em;
+            font-weight: bold;
+        }
+        .green_text {
+            color: #4CAF50;
+        }
+        .services, .advantages, .reviews, .faq {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .review, .faq-item {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="font-size: 40px;">
+        Reinigungsfirma <span class="green_text">Sauberes Haus</span>
+    </h1>
+    <p>Professionelle Reinigungsdienste für Ihr Zuhause und Büro</p>
+</header>
+
+<div class="container">
+    <div class="category_title">Unsere Dienstleistungen</div>
+    <section class="services">
+        <div class="card">
+            <span class="card_title">Grundreinigung</span>
+            <p>Komplette Reinigung aller Räume mit professionellen Mitteln.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Regelmäßige Reinigung</span>
+            <p>Planmäßige Reinigung nach vereinbartem Zeitplan zur Aufrechterhaltung der Sauberkeit.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Fensterreinigung</span>
+            <p>Reinigung von Fenstern und Spiegeln, einschließlich schwer zugänglicher Stellen.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Reinigung nach Renovierung</span>
+            <p>Entfernung von Baustaub und Schutt nach Renovierungs- oder Bauarbeiten.</p>
+        </div>
+    </section>
+
+    <div class="category_title">Warum Wählen Sie Uns</div>
+    <section class="advantages">
+        <div class="card">
+            <span class="card_title">Professionelles Team</span>
+            <p>Unsere Spezialisten haben langjährige Erfahrung und werden regelmäßig geschult.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Hochwertige Mittel</span>
+            <p>Wir verwenden nur sichere und effektive Reinigungsmittel.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Erschwingliche Preise</span>
+            <p>Wir bieten wettbewerbsfähige Preise für all unsere Dienstleistungen.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Qualitätsgarantie</span>
+            <p>Wir garantieren die Qualität unserer Dienstleistungen und die volle Zufriedenheit des Kunden.</p>
+        </div>
+    </section>
+
+    <div class="category_title">Bewertungen und Rückmeldungen</div>
+    <section class="reviews">
+        <div class="card">
+            <span class="card_title">Anna P.</span>
+            <p class="review">"Tolle Reinigung! Alles wurde schnell und qualitativ erledigt. Ich werde wieder bestellen."</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Ivan S.</span>
+            <p class="review">"Sehr zufrieden mit dem Service. Freundliches Personal und perfekte Sauberkeit!"</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Elena K.</span>
+            <p class="review">"Nach der Renovierung war die Wohnung in schrecklichem Zustand. Die Jungs haben es perfekt geschafft!"</p>
+        </div>
+    </section>
+
+    <div class="category_title">Häufige Fragen</div>
+    <section class="faq">
+        <div class="card">
+            <span class="card_title">Wie oft kann man regelmäßige Reinigung bestellen?</span>
+            <p>Sie können regelmäßige Reinigung wöchentlich, alle zwei Wochen oder monatlich, je nach Bedarf, bestellen.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Welche Reinigungsmittel verwenden Sie?</span>
+            <p>Wir verwenden sichere und umweltfreundliche Mittel, die effektiv und gesundheitsfreundlich sind.</p>
+        </div>
+        <div class="card">
+            <span class="card_title">Kann ich Reinigung am Wochenende bestellen?</span>
+            <p>Ja, wir bieten Reinigungsdienste auch an Wochenenden an. Bitte kontaktieren Sie uns, um die Details zu besprechen.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Telefon: +49 (123) 456-78-90</p>
+        <p> <a href="mailto:info@cleanhome.de"> Email: info@cleanhome.de</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Reinigungsfirma "Sauberes Haus". Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
+
